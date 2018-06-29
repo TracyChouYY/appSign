@@ -16,3 +16,14 @@ You can then open up iOS App Signer and select your input file, signing certific
 Thanks To
 ------
 [maciekish / iReSign](https://github.com/maciekish/iReSign): The basic process was gleaned from the source code of this project.
+
+ 
+
+      1.   Input File                   :   拖入重签名 ipa文件,会自动生成路径 
+      
+      2.  Signing Certificate    :      选择重签名证书,请确保证书已被添加. (双击证书即可)
+      
+      3.  Provisioning Profile   :    选择重签名描述文件,请确保证书已被添加. (双击.mobileprovision文件即可。切勿选择 Re-Sign Only ，无效。)
+      
+      4、点击Start,等待生成新的ipa文件,根据提示保存.
+  
